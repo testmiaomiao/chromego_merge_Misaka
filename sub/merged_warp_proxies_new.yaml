@@ -106,18 +106,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Unknown_hysteria2_51
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_hysteria_61
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -276,7 +264,6 @@ proxy-groups:
   - Unknown_tuic_21
   - Unknown_hysteria2_31
   - Unknown_tuic_41
-  - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_None_hysteria_71
   - Unknown_hysteria_81
@@ -295,7 +282,6 @@ proxy-groups:
   - Unknown_tuic_21
   - Unknown_hysteria2_31
   - Unknown_tuic_41
-  - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_None_hysteria_71
   - Unknown_hysteria_81
@@ -314,7 +300,6 @@ proxy-groups:
   - Unknown_tuic_21
   - Unknown_hysteria2_31
   - Unknown_tuic_41
-  - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_None_hysteria_71
   - Unknown_hysteria_81
